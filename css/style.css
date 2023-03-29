@@ -7,25 +7,25 @@
 
 
 body {
- font-size: 18px;
- font-family: proxima-nova,sans-serif;
-font-weight: 100;
-font-style: normal;
- background-color: #FFF9F9;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+ background-color: white;
+ color: black;
 }
 
 header {
-  background-color: #FFF9F9;
+  background-color: white;
   width: 100%;
   height: 100vh;
 }
 
 h1 {
-  font-family: arbotek,sans-serif;
-font-weight: 300;
+  font-family: "din-condensed", sans-serif;
+font-weight: 400;
 font-style: normal;
-color: #382327;
-letter-spacing: .5em;
+color: #7a3442;
+letter-spacing: .3em;
   font-size: 5em;
   display: flex;
   justify-content: center;
@@ -35,11 +35,11 @@ letter-spacing: .5em;
 }
 
 h2 {
-  font-family: arbotek,sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 300;
   font-style: normal;
-  color: #382327;
-  letter-spacing: .5em;
+  color: #7a3442;
+  letter-spacing: .3em;
   font-size: 2em;
   display: flex;
   justify-content: center;
@@ -55,28 +55,35 @@ header.header-other {
 section.presentation {
   width: 100%;
   display: flex;
-  font-family: proxima-nova,sans-serif;
-  font-weight: 100;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
   font-style: normal;
-  color: #382327;
+  color: black;
 }
 
 section article {
-  width: 80%;
+  width: 45%;
   padding: 2em 6em 0 2em;
-  margin-left: 5em;
+  margin-left: 10em;
   line-height: 1.8em;
 }
 
 
 section article h3 {
+  width: 60%;
+  font-family: "din-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #7a3442;
   font-size: 3em;
   padding: 1em 0;
   line-height: 1.2em;
 }
 
 section article p {
-  padding: 1em 0;
+  padding: .3em;
+  width: 60%;
+  line-height: 1.5em;
 }
 
 section aside img {
@@ -94,6 +101,10 @@ section aside img {
 }
 
 article.related h3 {
+  font-family: "din-condensed", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #7a3442;
   font-size: 4em;
   font-weight: 300;
   padding: .5em;
@@ -112,6 +123,10 @@ section.presentation_other {
 }
 
 article.other {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+color: black;
   width: 80%;
   display: block;
   margin: auto;
@@ -206,24 +221,30 @@ img.a {
 
 h5.ta {
 width: 50%;
-font-family: arbotek,sans-serif;
-font-weight: 300;
+font-family: "din-condensed", sans-serif;
+font-weight: 400;
 font-style: normal;
-color: #382327;
+color: #7a3442;
 letter-spacing: .5em;
 font-size: 4em;
 line-height: 1.3em;
-padding: .8em .5em .8em 6em;
+padding: .8em .5em .5em 6em;
 margin: .5em;
-background-color: #FAD9D7;
+border-bottom: solid 1px;
+  border-color: #7a3442;
+  /* border-top: 0;
+  border-right: 0;
+  border-left: 0; */
+/* background-color: #dcbdc4; */
 }
 
 p.a {
 width: 50%;
 font-size: 1.1em;
-font-family: proxima-nova,sans-serif;
-font-weight: 100;
+font-family: "lato", sans-serif;
+font-weight: 300;
 font-style: normal;
+color: black;
 padding: .5em;
 display: block;
 margin: auto;
@@ -245,13 +266,18 @@ section.contact {
 
 
 .contact a {
-  width: 25%;
-  font-size: 1.5em;
+  width: 20%;
+  font-size: 1em;
+  font-family: "lato", sans-serif;
+font-weight: 300;
+font-style: normal;
+color: black;
   text-decoration: none;
-  color: #382327;
   text-align: center;
-  padding: 2em;
-  background: #DAB2B1;
+  padding: 1em;
+  border: solid .5px;
+  border-color: #7a3442;
+  /* background: #DAB2B1; */
   transition: .3s ease-in-out;
 }
 
@@ -260,17 +286,17 @@ section.contact {
 }
 
 img.phone {
-  width: 40%;
+  width: 20%;
   padding: 1em;
 }
 
 img.mail {
-width: 50%;
+width: 25%;
 padding: 1em;
 }
 
 img.insta {
-width: 40%;
+width: 20%;
 padding: 1em;
 }
 
@@ -286,7 +312,7 @@ nav {
 }
 
 nav a:link {
-  color: #8C4D59;
+  color: #7a3442;
   padding: 10px 20px;
   text-decoration: none;
   flex-grow:1;
@@ -294,10 +320,10 @@ nav a:link {
   transition: all .3s;
 }
 nav a:visited {
-  color: #A86A69;
+  color: #7a3442;
 }
 nav a:hover {
-  color: #FAD9D7;
+  color: #dcbac1;
 }
 
 
