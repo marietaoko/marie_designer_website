@@ -54,7 +54,7 @@ header.header-other {
 
 section.presentation {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   font-family: "lato", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -62,27 +62,31 @@ section.presentation {
 }
 
 section article {
-  width: 45%;
-  padding: 2em 6em 0 2em;
-  margin-left: 10em;
+  width: 60%;
+  text-align: center;
+  padding: 5em;
+  /* padding: 2em 6em 0 2em; */
+  /* margin-left: 10em; */
   line-height: 1.8em;
+  display: block;
+  margin: auto;
 }
 
 
 section article h3 {
-  width: 60%;
+  /* width: 50%; */
   font-family: "din-condensed", sans-serif;
 font-weight: 400;
 font-style: normal;
 color: #7a3442;
   font-size: 3em;
-  padding: 1em 0;
+  padding: 1em 4em;
   line-height: 1.2em;
 }
 
 section article p {
-  padding: .3em;
-  width: 60%;
+  padding: .6em;
+  /* width: 50%; */
   line-height: 1.5em;
 }
 
@@ -127,7 +131,7 @@ article.other {
   font-weight: 300;
   font-style: normal;
 color: black;
-  width: 80%;
+  width: 60%;
   display: block;
   margin: auto;
   padding: 1em;
