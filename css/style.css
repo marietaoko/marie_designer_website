@@ -341,7 +341,7 @@ nav a:hover {
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 4em;
     position: relative;
     top: 40%;
   }
@@ -353,7 +353,7 @@ nav a:hover {
   }
 
   section article h3 {
-    font-size: 2em;
+    font-size: 3em;
     padding: 1em 0;
     line-height: 1.2em;
   }
@@ -364,24 +364,26 @@ nav a:hover {
 
   section.presentation {
     width: 100%;
-    display: block;
-    margin: auto;
+    /* display: block;
+    margin: auto; */
     padding: 3em;
   }
 
   section article {
-    width: 100%;
-    padding: 0;
-    margin-left: 1em;
-    line-height: 1.8em;
+    width: 80%;
+    padding: 1em;
+    display: block;
+    margin: auto;
+    /* margin-left: 1em;
+    line-height: 1.8em; */
   }
 
-  section aside img {
+  /* section aside img {
     width: 50vh;
     display: block;
     margin: auto;
     padding: 1em;
-  }
+  } */
 
   aside.other img {
     width: 80%;
@@ -425,7 +427,7 @@ nav a:hover {
   font-size: 3em;
   line-height: 1.3em;
   padding: .8em .5em .8em 2em;
-  margin: 0;
+  margin: .5em 0;
   }
 
 
@@ -447,10 +449,9 @@ h1.reach {
 
   .contact a {
     width: 30%;
-    font-size: 1em;
+    font-size: .8em;
     text-align: center;
     padding: 1em;
-    background: #DAB2B1;
     transition: .3s ease-in-out;
   }
 
@@ -459,17 +460,17 @@ h1.reach {
   }
 
   img.phone {
-    width: 50%;
+    width: 30%;
     padding: 1em;
   }
 
   img.mail {
-  width: 50%;
+  width: 30%;
   padding: 1em;
   }
 
   img.insta {
-  width: 50%;
+  width: 30%;
   padding: 1em;
   }
 
@@ -477,9 +478,12 @@ h1.reach {
   nav {
     font-size: .8em;
     width: 70%;
-    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* position: absolute;
     right: 1em;
-    top: 1em;
+    top: 1em; */
   }
 
 }
@@ -497,13 +501,13 @@ h1.reach {
     }
 
     h1 {
-      font-size: 1.3em;
+      font-size: 2em;
       position: relative;
       top: 40%;
     }
 
     h2 {
-      font-size: 1em;
+      font-size: .8em;
       position: relative;
       top: 40%;
     }
@@ -522,13 +526,13 @@ h1.reach {
     section article {
       width: 100%;
       padding: 0;
-      font-size: .8em;
+      font-size: .6em;
       margin-left: 0;
       line-height: 1.8em;
     }
 
     section article h3 {
-      font-size: 1em;
+      font-size: 3em;
       padding: 1em 0;
       line-height: 1.2em;
     }
@@ -604,16 +608,16 @@ h1.reach {
 
     h5.ta {
     width: 50%;
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 1.3em;
-    padding: 1em;
-    margin: 0;
+    padding: .8em;
+    margin: .5em 0;
     }
 
 
     p.a {
     width: 90%;
-    font-size: .8em;
+    font-size: .6em;
     padding: 1em 0;
     display: block;
     margin: auto;
@@ -640,37 +644,43 @@ h1.reach {
     }
 
     .contact a {
-      width: 80%;
-      font-size: .8em;
+      width: 50%;
+      font-size: .7em;
       margin: 2em;
-      padding: 1em;
+      padding: .5em;
       transition: .3s ease-in-out;
     }
 
 
     img.phone {
-      width: 40%;
-      padding: 1em;
+      width: 20%;
+      padding: .5em;
     }
 
     img.mail {
-    width: 40%;
+    width: 30%;
     padding: 1em;
     }
 
     img.insta {
-    width: 40%;
+    width: 30%;
     padding: 1em;
     }
 
 
     nav {
-      font-size: .35em;
+      font-size: .2em;
       width: 100%;
-      padding: 1em 0;
-      position: absolute;
+      padding: 3em 0;
+      display: block;
+      margin: auto;
+      /* position: absolute;
       right: 0;
-      top: 1em;
+      top: 1em; */
+    }
+
+    nav a:link{
+      padding: 3em;
     }
 
 
