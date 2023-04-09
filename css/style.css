@@ -62,14 +62,14 @@ section.presentation {
 }
 
 section article {
-  width: 60%;
-  text-align: center;
-  padding: 5em;
+  width: 55%;
+  text-align: left;
+  padding: 8em;
   /* padding: 2em 6em 0 2em; */
   /* margin-left: 10em; */
   line-height: 1.8em;
-  display: block;
-  margin: auto;
+  /* display: block;
+  margin: auto; */
 }
 
 
@@ -79,8 +79,9 @@ section article h3 {
 font-weight: 400;
 font-style: normal;
 color: #7a3442;
+text-align: left;
   font-size: 3em;
-  padding: 1em 4em;
+  padding: 1em 1em;
   line-height: 1.2em;
 }
 
@@ -92,8 +93,8 @@ section article p {
 
 section aside img {
   width: 70vh;
-  margin: 0 3em 0 4em;
-  padding: 3em;
+  margin: 0 2em 0 2em;
+  padding: 1em;
   /* border-style: solid;
   border-width: .1em; */
 }
@@ -119,7 +120,7 @@ color: #7a3442;
   width: 90%;
   display: block;
   margin: auto;
-  padding: 1em;
+  padding: 0;
 }
 
 section.presentation_other {
@@ -279,6 +280,7 @@ color: black;
   text-decoration: none;
   text-align: center;
   padding: 1em;
+  margin: 1em;
   border: solid .5px;
   border-color: #7a3442;
   /* background: #DAB2B1; */
